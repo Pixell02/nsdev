@@ -1,0 +1,31 @@
+.sidebar-container {
+    background-color: rgb(7, 7, 15);
+    opacity: 0.9;
+    right: -100%;
+    margin-top: 80px;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+.sidebar-container.active {
+    right: 0;
+    transition: 0.2s ease-in-out;
+}
+.sidebar-container .close-btn-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 30px 50px 0 0;
+    width: 100%;
+}
+.sidebar-container .close-btn-container .close-btn {
+    scale: 2;
+}
+
+.sidebar-container .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}

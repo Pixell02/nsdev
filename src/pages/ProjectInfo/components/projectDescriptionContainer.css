@@ -1,0 +1,16 @@
+.description-container {
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+}
+.description-container .title-container {
+    margin-bottom: 20px;
+}
+.description-container .description-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-container .description-content p {
+    font-size: 15px;
+}

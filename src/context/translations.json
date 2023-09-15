@@ -1,0 +1,15 @@
+
+  {
+    "pl": {
+        "main": "Strona Główna",
+        "realizations": "Realizacje",
+        "opinions": "Opinie",
+        "contact": "Kontakt"
+    }, 
+    "en": {
+      "main": "Home",
+        "realizations": "Realizations",
+        "opinions": "Opinions",
+        "contact": "Contact"
+    }
+  }

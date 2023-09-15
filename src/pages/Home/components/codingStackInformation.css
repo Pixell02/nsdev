@@ -1,0 +1,104 @@
+/* codingStackInformation.css */
+.code-stack-info {
+  height: 700px;
+  display: flex;
+  width: 100%;
+  min-width: 500px;
+}
+.code-stack-info .library-description {
+  border: 1px solid white;
+  margin: 50px 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 0 0;
+  min-height: 80px;
+}
+.code-stack-info .library-description p {
+  width: 90%;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  transition: 0.2s ease-in-out;
+}
+
+.circle-container .circle-blocked {
+  width: 300px;
+  height: 300px;
+  border: 10px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border: 10px solid white;
+  border-radius: 50%;
+  position: relative;
+  animation: rotation 20s infinite linear;
+  transition: 0.2s ease-in-out;
+}
+.circle:hover {
+  animation-play-state: paused;
+}
+.circle:hover img {
+  animation-play-state: paused;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationReversed {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.image-container {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.image-container .image {
+  animation: rotationReversed 20s infinite linear;
+  transition: 0.2s ease-in-out;
+}
+
+.image-container .image-paused {
+  transition: 0.2s ease-in-out;
+}
+.image-container .image-paused:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1000px) {
+  .code-stack-info {
+    min-width: 0px;
+  }
+  .circle-container {
+    scale: 0.9;
+  }
+}
+@media screen and (max-width: 800px) {
+  
+  .circle-container {
+    scale: 0.55;
+  }
+}
+

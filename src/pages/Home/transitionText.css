@@ -1,0 +1,9 @@
+.transition-text-container {
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+}
+.transition-text-container h1 {
+  width: 100%;
+  font-size: 23px;
+}

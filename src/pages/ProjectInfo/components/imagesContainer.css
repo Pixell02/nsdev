@@ -1,0 +1,100 @@
+.preview-container {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+}
+.preview-container .preview-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px 0 20px;
+  max-width: 500px;
+  max-height: 400px;
+  border: 1px solid #4d4d4d;
+}
+.preview-container .preview-block .preview-content {
+  display: flex;
+  max-width: 450px;
+  height: 300px;
+  border: 1px solid #4d4d4d;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.preview-container .preview-block .preview-content img {
+  width: 100%;
+  object-fit: cover;
+}
+.preview-container .preview-block .select-preview-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.preview-container
+  .preview-block
+  .select-preview-container
+  .select-circle-container {
+  display: flex;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.arrow-container {
+  cursor: pointer;
+}
+
+.preview-container
+  .preview-block
+  .select-preview-container
+  .select-circle-container
+  .selectable-circle {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px 0 5px;
+  border-radius: 100%;
+  background-color: white;
+}
+.preview-container .preview-block .select-preview-container .arrow-container {
+  margin: 25px 20px 0 20px;
+  display: flex;
+  align-items: center;
+  scale: 2;
+  height: 10px;
+}
+
+.preview-container
+  .preview-block
+  .select-preview-container
+  .select-circle-container
+  .selected-circle {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px 0 5px;
+  border-radius: 100%;
+  background-color: rgb(150, 150, 150);
+}
+
+@media screen and (max-width: 1158px) {
+  .preview-container {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .preview-container .preview-block .preview-content {
+    max-width: 300px;
+    height: 180px;
+  }
+  .preview-container .preview-block .preview-content img {
+    max-width: 300px;
+    max-height: 180px;
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+  }
+}

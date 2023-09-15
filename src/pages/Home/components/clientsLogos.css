@@ -1,0 +1,40 @@
+.d-flex .logo-container {
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.d-flex .logo-container img {
+  transition: 0.2s ease-in-out;
+}
+
+.d-flex .logo-container img:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+.d-flex .logo-container::before,
+.d-flex .logo-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.5), transparent);
+}
+
+.d-flex .logo-container::after {
+  top: auto;
+  bottom: 0;
+}
+@media screen and (max-width: 800px) {
+  .d-flex .logo-container img {
+      max-width: 200px;
+    }
+}

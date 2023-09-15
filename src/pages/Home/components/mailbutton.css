@@ -1,0 +1,29 @@
+.button-container {
+    display: flex;
+    margin-bottom: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    animation: scaling 3s infinite ease-in-out;
+}
+.button-container a {
+    background-color: #0e0e18;
+    padding: 20px;
+    text-align: center;
+    width : 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes scaling {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.1;
+    }
+    100% {
+        scale: 1;
+    }
+}

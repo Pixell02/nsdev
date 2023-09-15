@@ -1,0 +1,22 @@
+{
+  "electron": {
+    "pl": "Electron - Biblioteka do tworzenia aplikacji desktopowych",
+    "en": "Electron - Library for building desktop applications"
+  },
+  "typeScript": {
+    "pl": "TypeScript - Język programowania",
+    "en": "TypeScript - Programming language"
+  },
+  "react": {
+    "pl": "React - Biblioteka do budowy interfejsów",
+    "en": "React - Library for building interfaces"
+  },
+  "node": {
+    "pl": "Node.js - Środowisko uruchomieniowe JavaScript po stronie serwera",
+    "en": "Node.js - Server-side JavaScript runtime environment"
+  },
+  "firebase": {
+    "pl": "Firebase - Platforma do tworzenia aplikacji internetowych",
+    "en": "Firebase - Platform for building web applications"
+  }
+}

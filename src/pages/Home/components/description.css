@@ -1,0 +1,23 @@
+.d-flex.w-100 p {
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  margin-top: 15px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width: 1000px) {
+  
+}
+@media screen and (max-width: 1000px) {
+  .d-flex.w-100 p {
+      font-size: 13px;
+    }
+    .description-container {
+      margin-bottom: 0;
+    }
+}

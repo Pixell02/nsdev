@@ -1,0 +1,36 @@
+.first-container {
+  min-height: 600px;
+  display: flex;
+}
+
+.offer-container {
+  margin-bottom: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-container p {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .first-container {
+    flex-direction: column;
+    min-height: 930px;
+  }
+  .offer-container {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-container {
+    min-height: 950px;
+  }
+}
+
+
+
+
+
+

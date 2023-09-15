@@ -1,0 +1,79 @@
+.item-block {
+  margin: 10px 20px 50px 20px;
+  width: 400px;
+  height: 250px;
+  background-color: rgb(13, 14, 27);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.item-block .images-container {
+  margin: 20px 0 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  background-color: none;
+  border: 1px solid rgb(48, 48, 48);
+  height: 150px;
+  overflow: hidden;
+}
+.item-block .images-container img {
+  max-width: 100%;
+  transition: ease-in-out 0.2s;
+}
+.item-block .images-container img:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+.item-block .name-container {
+  text-align: left;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+}
+.item-block .name-container .animated-text {
+  width: 100%;
+  display: inline-block;
+  left: -100%;
+  color: white;
+  transition: left 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.item-block .name-container:hover .animated-text {
+  left: 0;
+  color: lightgray;
+}
+
+.item-block .name-container .d-flex .arrow-container {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+}
+.item-block .name-container .d-flex .arrow-container img {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  transition: 0.2s ease-in-out;
+}
+.item-block:hover .name-container .d-flex .arrow-container img {
+  margin-left: 0;
+  transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .item-block {
+    max-width: 350px;
+  }
+  .item-block .images-container {
+    max-width: 350px;
+  }
+    .item-block .images-container {
+      max-width: 300px;
+    }
+}

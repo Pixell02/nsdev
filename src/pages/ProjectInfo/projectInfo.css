@@ -1,0 +1,11 @@
+.project-information-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1158px) {
+    .project-information-container {
+            display: flex;
+            flex-direction: column;
+        }
+}

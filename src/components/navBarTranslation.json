@@ -1,0 +1,15 @@
+
+{
+  "main": {
+    "pl": "Strona Główna",
+    "en": "Home"
+  },
+  "realizations": {
+    "pl": "Realizacje",
+    "en": "Realizations"
+  },
+  "contact": {
+    "pl": "Kontakt",
+    "en": "Contact"
+  }
+}

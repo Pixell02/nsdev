@@ -1,0 +1,14 @@
+{
+  "stepOne": {
+    "pl": "Przedstaw pomysł na aplikację, wraz z jej specyfikacją oraz wymaganiami, jakie powinna spełniać. Na tej podstawie możliwe jest dokonanie wstępnej wyceny aplikacji.",
+    "en": "Present the idea for the application, along with its specifications and requirements it should meet. Based on this, it is possible to provide an initial cost estimate for the application."
+  },
+  "stepTwo": {
+    "pl": "Przedstawienie wyglądu aplikacji i wprowadzenie wyglądowych poprawek jeżeli takowe są. Tutaj też tworzy się całą logikę aplikacji zgodnie z wymaganiami.",
+    "en": "Present the appearance of the application and make visual adjustments if necessary. This is also where the entire logic of the application is developed in accordance with the requirements."
+  },
+  "stepThree": {
+    "pl": "Po wykonaniu całej aplikacji następuje jej uruchomienie, czyli podpięcie do hostingu oraz pod domenę jaką chcemy.",
+    "en": "After completing the entire application, it is launched, which involves hosting it and connecting it to the desired domain."
+  }
+}
